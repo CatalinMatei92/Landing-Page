@@ -10,35 +10,32 @@ body {height: 100vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0px;
+    padding: 5px 0px;
     margin: 0;
     background-color: #1F2937;
         
 }
 
-img {
+#logo-img {
     height:30px;
     width: 30px;
     
 }
+.head-right{
+    gap: 30px;
+}
 
-.logo{
-    display: flex;
-    align-items: center;
-    gap: 30px;  
-    font-size: 20px;  
-   }
-
-  ul {
+ul{
     display: flex;
     list-style-type: none;
-    gap: 30px;
     align-items: center;
-    padding: 0;
-      
-    }
+    padding: 0px;
+    margin: 0px;
+    flex-wrap: wrap;
+   }
 
-   a{
+  
+a{
     text-decoration: none;
     font-size: 20px;
     color: aliceblue;
@@ -50,18 +47,15 @@ img {
     justify-content: space-around;
     align-items: center;
     padding: 50px 0;
-    flex-wrap:wrap-reverse;
-        
+    flex-wrap:wrap-reverse;        
 }
-
 
 .img-top {
     height: auto;
     width: 350px; 
-    flex-basis: 30%; 
-    
-    
+    flex-basis: 30%;    
 }
+
  #title {
     font-size: 42px;
     font-weight: 900;
@@ -106,32 +100,27 @@ img {
     }
     .title-two {
         align-self: center;
-        padding: 15px;
+        padding: 30px 0px;
         font-size: 25px;
         font-weight: 700;
+        margin: 0;
     }
-    
-
-    .two img {
+    .two img,
+    .two li {
         width: 300px;
         height: auto;
-        
+                   
     }
-    .two li{
-        
-        flex-basis: 300px;
-
-    }
+    
         .two ul{
         justify-content: space-around;
         align-items: flex-start;
-        flex-wrap: wrap;
-
+        
         }
     .three {
         color: #1F2937;
         background-color: #E5E7EB;
-        padding: 30px 40px;
+        padding: 30px 70px;
 
     }
     .three ul{
