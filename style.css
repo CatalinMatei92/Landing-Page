@@ -47,13 +47,14 @@ a{
     justify-content: space-around;
     align-items: center;
     padding: 50px 0;
-    flex-wrap:wrap-reverse;        
+    flex-wrap:wrap-reverse;    
+    font-size-adjust: 50%;  
+      
 }
 
 .img-top {
-    height: auto;
-    width: 350px; 
-    flex-basis: 30%;    
+    width: 500px;
+    height: auto;    
 }
 
  #title {
@@ -64,10 +65,10 @@ a{
  }
 
  .top-left{
-    flex-basis: 350px;
-    height: auto;
+    width: 350px;
     justify-content: center;
     align-items: center;
+    
     
  }
  #text {
